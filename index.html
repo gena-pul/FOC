@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<title> G Page</title>
+<body>
+
+<header>
+  <h2 style= "text-align:center; font-size: 40px;"> Welcome to Genevieve's Website!</h2>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="icon-bar">
+<a class="active" href="#"><i class="fa fa-home"></i></a>
+  <a href="resumeinfo.html"><i class="fa fa-envelope"></i></a>
+  <a href="About-Me.html"><i class="fa fa-globe"></i></a>
+
+</div>
+</header>
+<style>
+body {
+  background-image: url('green.jpg');
+
+}
+</style>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Style the header */
+header {
+  background-color: rgba(124, 255, 215, 0.9);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 15%;
+ height: 300px;
+  background: #FFFFFF;
+ padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #5390D9;
+  /* height: 300px;  only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #5E60CE;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(124, 255, 215, 0.6);
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 10px;
+}
+</style>
+
+<div class="footer">
+  <p> @ Genevieve Pulido</p>
+</div>
+
+</body>
+</html>
